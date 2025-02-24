@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5DFA5B5A7E368C504C22FB88AFBD71AC"
-               BuildableName = "Pods_BannerAdDemoTests.framework"
-               BlueprintName = "Pods-BannerAdDemoTests"
+               BlueprintIdentifier = "ED7664667EDF68C0B5223B11F62C447C"
+               BuildableName = "Pods_GoogleAdsDemo.framework"
+               BlueprintName = "Pods-GoogleAdsDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -1,6 +1,0 @@
-framework module Pods_BannerAdDemo_BannerAdDemoUITests {
-  umbrella header "Pods-BannerAdDemo-BannerAdDemoUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_BannerAdDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_BannerAdDemoVersionString[];
+FOUNDATION_EXPORT double Pods_GoogleAdsDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_GoogleAdsDemoVersionString[];
 
