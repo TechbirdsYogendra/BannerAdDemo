@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C40449FC66C144014A4594DF /* Pods_BannerAdDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCE96F199D459DA254D18F6 /* Pods_BannerAdDemoTests.framework */; };
+		E79BFC016F0A5F5CC8E086CC /* Pods_BannerAdDemo_BannerAdDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBEB3D9F5F6CC96838D9FC6C /* Pods_BannerAdDemo_BannerAdDemoUITests.framework */; };
+		F6995B74DCA983BC8D17A0D8 /* Pods_BannerAdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FFAFB061928C29E43D9E23 /* Pods_BannerAdDemo.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		05C4C7552D5F210700D8E6C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,15 @@
 		05C4C73E2D5F210500D8E6C7 /* BannerAdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerAdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C4C7542D5F210700D8E6C7 /* BannerAdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerAdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C4C75E2D5F210700D8E6C7 /* BannerAdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerAdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A5CBA61B914E8F3340012D /* Pods-BannerAdDemo-BannerAdDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAdDemo-BannerAdDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-BannerAdDemo-BannerAdDemoUITests/Pods-BannerAdDemo-BannerAdDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FCE96F199D459DA254D18F6 /* Pods_BannerAdDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerAdDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED1555DC2BEFD5BDC27D544 /* Pods-BannerAdDemo-BannerAdDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAdDemo-BannerAdDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-BannerAdDemo-BannerAdDemoUITests/Pods-BannerAdDemo-BannerAdDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A460A557DD4E5E144CC9F47B /* Pods-BannerAdDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAdDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-BannerAdDemoTests/Pods-BannerAdDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5895CE4EF1DCA65CBCE96FF /* Pods-BannerAdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAdDemo.release.xcconfig"; path = "Target Support Files/Pods-BannerAdDemo/Pods-BannerAdDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CBEB3D9F5F6CC96838D9FC6C /* Pods_BannerAdDemo_BannerAdDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerAdDemo_BannerAdDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F068182C7DA581AE60CAE1 /* Pods-BannerAdDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAdDemoTests.release.xcconfig"; path = "Target Support Files/Pods-BannerAdDemoTests/Pods-BannerAdDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D763EFAEFE587CCC1ECCD016 /* Pods-BannerAdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BannerAdDemo.debug.xcconfig"; path = "Target Support Files/Pods-BannerAdDemo/Pods-BannerAdDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E9FFAFB061928C29E43D9E23 /* Pods_BannerAdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BannerAdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6995B74DCA983BC8D17A0D8 /* Pods_BannerAdDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40449FC66C144014A4594DF /* Pods_BannerAdDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79BFC016F0A5F5CC8E086CC /* Pods_BannerAdDemo_BannerAdDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +110,8 @@
 				05C4C7572D5F210700D8E6C7 /* BannerAdDemoTests */,
 				05C4C7612D5F210700D8E6C7 /* BannerAdDemoUITests */,
 				05C4C73F2D5F210500D8E6C7 /* Products */,
+				0D141A664DD552357A0564CA /* Pods */,
+				19630DAC2A15CA82ED68FD90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0D141A664DD552357A0564CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D763EFAEFE587CCC1ECCD016 /* Pods-BannerAdDemo.debug.xcconfig */,
+				A5895CE4EF1DCA65CBCE96FF /* Pods-BannerAdDemo.release.xcconfig */,
+				11A5CBA61B914E8F3340012D /* Pods-BannerAdDemo-BannerAdDemoUITests.debug.xcconfig */,
+				9ED1555DC2BEFD5BDC27D544 /* Pods-BannerAdDemo-BannerAdDemoUITests.release.xcconfig */,
+				A460A557DD4E5E144CC9F47B /* Pods-BannerAdDemoTests.debug.xcconfig */,
+				D1F068182C7DA581AE60CAE1 /* Pods-BannerAdDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		19630DAC2A15CA82ED68FD90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9FFAFB061928C29E43D9E23 /* Pods_BannerAdDemo.framework */,
+				CBEB3D9F5F6CC96838D9FC6C /* Pods_BannerAdDemo_BannerAdDemoUITests.framework */,
+				7FCE96F199D459DA254D18F6 /* Pods_BannerAdDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C4C7672D5F210700D8E6C7 /* Build configuration list for PBXNativeTarget "BannerAdDemo" */;
 			buildPhases = (
+				42E2B5FE14BEA911E44DA55E /* [CP] Check Pods Manifest.lock */,
 				05C4C73A2D5F210500D8E6C7 /* Sources */,
 				05C4C73B2D5F210500D8E6C7 /* Frameworks */,
 				05C4C73C2D5F210500D8E6C7 /* Resources */,
+				45FF4F913ACAB3C39A6F518E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				05C4C7402D5F210500D8E6C7 /* BannerAdDemo */,
 			);
 			name = BannerAdDemo;
-			packageProductDependencies = (
-			);
 			productName = BannerAdDemo;
 			productReference = 05C4C73E2D5F210500D8E6C7 /* BannerAdDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C4C76C2D5F210700D8E6C7 /* Build configuration list for PBXNativeTarget "BannerAdDemoTests" */;
 			buildPhases = (
+				68244F6DA4F24457D7C036F3 /* [CP] Check Pods Manifest.lock */,
 				05C4C7502D5F210700D8E6C7 /* Sources */,
 				05C4C7512D5F210700D8E6C7 /* Frameworks */,
 				05C4C7522D5F210700D8E6C7 /* Resources */,
@@ -147,8 +191,6 @@
 				05C4C7572D5F210700D8E6C7 /* BannerAdDemoTests */,
 			);
 			name = BannerAdDemoTests;
-			packageProductDependencies = (
-			);
 			productName = BannerAdDemoTests;
 			productReference = 05C4C7542D5F210700D8E6C7 /* BannerAdDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C4C76F2D5F210700D8E6C7 /* Build configuration list for PBXNativeTarget "BannerAdDemoUITests" */;
 			buildPhases = (
+				9B6426D90A5959B1F13D681E /* [CP] Check Pods Manifest.lock */,
 				05C4C75A2D5F210700D8E6C7 /* Sources */,
 				05C4C75B2D5F210700D8E6C7 /* Frameworks */,
 				05C4C75C2D5F210700D8E6C7 /* Resources */,
+				43634513BADD58FDD05DAB73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				05C4C7612D5F210700D8E6C7 /* BannerAdDemoUITests */,
 			);
 			name = BannerAdDemoUITests;
-			packageProductDependencies = (
-			);
 			productName = BannerAdDemoUITests;
 			productReference = 05C4C75E2D5F210700D8E6C7 /* BannerAdDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42E2B5FE14BEA911E44DA55E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BannerAdDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43634513BADD58FDD05DAB73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BannerAdDemo-BannerAdDemoUITests/Pods-BannerAdDemo-BannerAdDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BannerAdDemo-BannerAdDemoUITests/Pods-BannerAdDemo-BannerAdDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BannerAdDemo-BannerAdDemoUITests/Pods-BannerAdDemo-BannerAdDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45FF4F913ACAB3C39A6F518E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BannerAdDemo/Pods-BannerAdDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BannerAdDemo/Pods-BannerAdDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BannerAdDemo/Pods-BannerAdDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68244F6DA4F24457D7C036F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BannerAdDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6426D90A5959B1F13D681E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BannerAdDemo-BannerAdDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05C4C73A2D5F210500D8E6C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,11 +429,13 @@
 /* Begin XCBuildConfiguration section */
 		05C4C7682D5F210700D8E6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D763EFAEFE587CCC1ECCD016 /* Pods-BannerAdDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BannerAdDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -311,11 +458,13 @@
 		};
 		05C4C7692D5F210700D8E6C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5895CE4EF1DCA65CBCE96FF /* Pods-BannerAdDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BannerAdDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -457,10 +606,12 @@
 		};
 		05C4C76D2D5F210700D8E6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A460A557DD4E5E144CC9F47B /* Pods-BannerAdDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -475,10 +626,12 @@
 		};
 		05C4C76E2D5F210700D8E6C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F068182C7DA581AE60CAE1 /* Pods-BannerAdDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -493,9 +646,11 @@
 		};
 		05C4C7702D5F210700D8E6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A5CBA61B914E8F3340012D /* Pods-BannerAdDemo-BannerAdDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tothenew.BannerAdDemoUITests;
@@ -509,9 +664,11 @@
 		};
 		05C4C7712D5F210700D8E6C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED1555DC2BEFD5BDC27D544 /* Pods-BannerAdDemo-BannerAdDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tothenew.BannerAdDemoUITests;
